@@ -1,0 +1,12 @@
+name: detect-workflow-changes
+on:
+  push:
+
+jobs:
+  echo:
+    name: Print Something
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Something
+        run: |
+          echo "this is a test workflow"
